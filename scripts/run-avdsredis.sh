@@ -2,9 +2,6 @@
 
 # This script stops, removes and starts a the avdsredis container.
 
-[[ -z "${AV_ROOT}" ]] && echo "AV_ROOT must be set to the root directory into which all AV repositories are cloned." && exit 1
-. $AV_ROOT/av-scripts/be/containers/set-env.sh
-
 export CONTAINER_NAME=avdsredis
 export IMAGE_NAME=redis:5.0.8
 
