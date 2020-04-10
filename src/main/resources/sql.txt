@@ -1,0 +1,8 @@
+CREATE TABLE redis_demo.books
+(
+    id                                              INTEGER                         not null,
+	title											varchar(50)						null,
+    created_at                                      timestamp without time zone     not null,
+    updated_at                                      timestamp without time zone     not null
+);
+
